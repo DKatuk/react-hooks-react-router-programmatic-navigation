@@ -13,6 +13,7 @@ function Login({ setIsLoggedIn }) {
       ...formData,
       [e.target.name]: e.target.value,
     });
+    console.log(formData);
   }
 
   function handleSubmit(e) {
